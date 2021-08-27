@@ -7,7 +7,6 @@
 
 module.exports = {
   find(params, populate) {
-    console.log(populate);
     return strapi.query('resume').find({ ...params, _limit: 1 }, [
       "languages",
       "technologies",
