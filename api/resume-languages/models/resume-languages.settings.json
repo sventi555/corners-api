@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resume_languages",
+  "info": {
+    "name": "Resume Languages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

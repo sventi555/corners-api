@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/resume-experience-details",
+      "handler": "resume-experience-details.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/resume-experience-details/count",
+      "handler": "resume-experience-details.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/resume-experience-details/:id",
+      "handler": "resume-experience-details.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/resume-experience-details",
+      "handler": "resume-experience-details.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/resume-experience-details/:id",
+      "handler": "resume-experience-details.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/resume-experience-details/:id",
+      "handler": "resume-experience-details.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

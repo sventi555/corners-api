@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/resume-languages",
+      "handler": "resume-languages.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/resume-languages/count",
+      "handler": "resume-languages.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/resume-languages/:id",
+      "handler": "resume-languages.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/resume-languages",
+      "handler": "resume-languages.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/resume-languages/:id",
+      "handler": "resume-languages.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/resume-languages/:id",
+      "handler": "resume-languages.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

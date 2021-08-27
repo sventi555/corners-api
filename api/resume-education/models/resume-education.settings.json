@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resume_educations",
+  "info": {
+    "name": "Resume Educations",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "degree": {
+      "type": "string"
+    },
+    "institution": {
+      "type": "string"
+    },
+    "start": {
+      "type": "date"
+    },
+    "end": {
+      "type": "date"
+    },
+    "details": {
+      "via": "education",
+      "collection": "resume-education-details"
+    }
+  }
+}

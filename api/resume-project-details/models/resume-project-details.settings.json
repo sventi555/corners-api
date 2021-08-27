@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resume_project_details",
+  "info": {
+    "name": "Resume Project Details",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "project": {
+      "via": "details",
+      "model": "resume-projects"
+    }
+  }
+}

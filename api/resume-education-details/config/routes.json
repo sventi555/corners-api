@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/resume-education-details",
+      "handler": "resume-education-details.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/resume-education-details/count",
+      "handler": "resume-education-details.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/resume-education-details/:id",
+      "handler": "resume-education-details.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/resume-education-details",
+      "handler": "resume-education-details.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/resume-education-details/:id",
+      "handler": "resume-education-details.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/resume-education-details/:id",
+      "handler": "resume-education-details.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -2,26 +2,51 @@
   "kind": "singleType",
   "collectionName": "resumes",
   "info": {
-    "name": "Resume"
+    "name": "Resume",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "Portrait": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
+    "languages": {
+      "collection": "resume-languages"
+    },
+    "technologies": {
+      "collection": "resume-technologies"
+    },
+    "interests": {
+      "collection": "resume-interests"
+    },
+    "experiences": {
+      "collection": "resume-experiences"
+    },
+    "projects": {
+      "collection": "resume-projects"
+    },
+    "educations": {
+      "collection": "resume-education"
     }
   }
 }

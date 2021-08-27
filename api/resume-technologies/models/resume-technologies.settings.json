@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resume_technologies",
+  "info": {
+    "name": "Resume Technologies",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

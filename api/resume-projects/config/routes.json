@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/resume-projects",
+      "handler": "resume-projects.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/resume-projects/count",
+      "handler": "resume-projects.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/resume-projects/:id",
+      "handler": "resume-projects.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/resume-projects",
+      "handler": "resume-projects.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/resume-projects/:id",
+      "handler": "resume-projects.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/resume-projects/:id",
+      "handler": "resume-projects.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

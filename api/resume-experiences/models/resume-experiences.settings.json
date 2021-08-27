@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resume_experiences",
+  "info": {
+    "name": "Resume Experiences",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "role": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "start": {
+      "type": "date"
+    },
+    "end": {
+      "type": "date"
+    },
+    "details": {
+      "via": "experience",
+      "collection": "resume-experience-details"
+    }
+  }
+}

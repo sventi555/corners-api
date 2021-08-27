@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resume_interests",
+  "info": {
+    "name": "Resume Interests",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
