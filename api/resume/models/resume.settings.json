@@ -31,22 +31,34 @@
       "type": "string"
     },
     "languages": {
-      "collection": "resume-languages"
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.short-detail"
     },
     "technologies": {
-      "collection": "resume-technologies"
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.short-detail"
     },
     "interests": {
-      "collection": "resume-interests"
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.short-detail"
     },
     "experiences": {
-      "collection": "resume-experiences"
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.experience"
     },
     "projects": {
-      "collection": "resume-projects"
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.project"
     },
     "educations": {
-      "collection": "resume-education"
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.education"
     }
   }
 }

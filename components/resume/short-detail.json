@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_resume_short_details",
+  "info": {
+    "name": "Short Detail",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "show": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

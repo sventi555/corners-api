@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_resume_experiences",
+  "info": {
+    "name": "Experience",
+    "icon": "building"
+  },
+  "options": {},
+  "attributes": {
+    "role": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "start": {
+      "type": "date"
+    },
+    "end": {
+      "type": "date"
+    },
+    "details": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.detail"
+    }
+  }
+}

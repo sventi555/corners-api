@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_resume_projects",
+  "info": {
+    "name": "Project",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "details": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.detail"
+    }
+  }
+}

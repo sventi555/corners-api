@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_resume_educations",
+  "info": {
+    "name": "Education",
+    "icon": "graduation-cap"
+  },
+  "options": {},
+  "attributes": {
+    "degree": {
+      "type": "string"
+    },
+    "institution": {
+      "type": "string"
+    },
+    "start": {
+      "type": "date"
+    },
+    "end": {
+      "type": "date"
+    },
+    "details": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.detail"
+    }
+  }
+}
